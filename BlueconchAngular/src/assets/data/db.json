@@ -1,0 +1,120 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 2,
+      "productName": "Cheese",
+      "description": "Cheeeeeeeesiest Cheese in all of the cheesetown!",
+      "rating": 5,
+      "price": 120,
+      "productImg": "http://localhost:4200/assets/1.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 2,
+      "categoryId": 2,
+      "productName": "Paneer",
+      "description": "Protien, huh?",
+      "rating": 3,
+      "price": 120,
+      "productImg": "http://localhost:4200/assets/2.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 3,
+      "categoryId": 3,
+      "productName": "Watermelon",
+      "description": "Lowest in calories, Juiciest in the fruitdom!",
+      "rating": 3,
+      "price": 34343,
+      "productImg": "http://localhost:4200/assets/3.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "productName": "White Bread",
+      "description": "No we are not bread racists! We also keep the brown ones",
+      "rating": 2,
+      "price": 2330,
+      "productImg": "http://localhost:4200/assets/5.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "productName": "Brown Bread",
+      "description": "No, the Indians didn't name it",
+      "rating": 2,
+      "price": 2330,
+      "productImg": "http://localhost:4200/assets/6.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 7,
+      "categoryId": 4,
+      "productName": "Oregano",
+      "description": "Pizza much?",
+      "rating": 2,
+      "price": 2330,
+      "productImg": "http://localhost:4200/assets/7.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 8,
+      "categoryId": 5,
+      "productName": "Potato",
+      "description": "Versitality King.",
+      "rating": 2,
+      "price": 2330,
+      "productImg": "http://localhost:4200/assets/8.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Bread"
+    },
+    {
+      "id": 2,
+      "categoryName": "Dairy"
+    },
+    {
+      "id": 3,
+      "categoryName": "Fruits"
+    },
+    {
+      "id": 4,
+      "categoryName": "Seasonings & Spices"
+    },
+    {
+      "id": 5,
+      "categoryName": "Vegetables"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
